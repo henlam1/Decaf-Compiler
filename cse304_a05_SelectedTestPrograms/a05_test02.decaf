@@ -1,0 +1,41 @@
+class a05_test02
+{
+    public static void main()
+    {
+        int i;
+        int j;
+        int k;
+        float a;
+        float b;
+        float c;
+        boolean x;
+        boolean y;
+        boolean z;
+        
+        i = 10;
+        j = 20;
+        k = i + j;
+        k = i * j;
+        k = j - i;
+        k = j / i;
+        
+        a = 10.0;
+        b = 20.0;
+        c = a + b;
+        c = a * b;
+        c = b - a;
+        c = b / a;
+        
+        x = true;
+        y = false;
+        z = x && y;
+        z = x || y;
+        
+        z = i < j;
+        z = i <= j;
+        z = i > j;
+        z = i >= j;
+        z = i == j;
+        z = i != j;
+    }
+}

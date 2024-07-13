@@ -1,0 +1,18 @@
+class a05_test05
+{
+    public static void main()
+    {
+        int i;
+        int j;
+        int k;
+        
+        i = 0;
+        j = 10;
+        k = 0;
+        while (i < j)
+        {
+            k = k + i;
+            i++;
+        }
+    }
+}

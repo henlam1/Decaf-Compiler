@@ -1,0 +1,19 @@
+class a05_test01
+{
+    public static void main()
+    {
+        int i;
+        int j;
+        boolean x;
+        boolean y;
+        
+        i = 10;
+        j = -i;
+        
+        x = true;
+        y = !x;
+        
+        i++;
+        i--;
+    }
+}

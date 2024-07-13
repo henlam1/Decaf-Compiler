@@ -1,0 +1,29 @@
+M_scan_float_2
+
+M_scan_int_1
+
+M_print_6
+
+M_print_5
+
+M_print_4
+
+M_print_3
+
+M_main_7
+move_immed_i t1, 0
+move t0, t1
+move_immed_i t3, 10
+move t2, t3
+move_immed_i t5, 0
+move t4, t5
+L_1
+ilt t6, t0, t2
+bz t6, L_2
+iadd t7, t4, t0
+move t4, t7
+move_immed_i t8, 1
+iadd t0, t0, t8
+jmp L_1
+L_2
+

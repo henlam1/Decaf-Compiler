@@ -1,0 +1,19 @@
+CSE 304
+Assignment 05
+Test Programs:
+
+a05_test01: Unary Operations
+a05_test02: Binary Operations
+a05_test03: if statement
+a05_test04: if-else statement
+a05_test05: while statement
+a05_test06: for statement
+a05_test07: static method definition and invocation
+a05_test08: class definition, static variables
+a05_test09: class definition, non-static variables
+a05_test10: class definition, static method definition and invocation
+a05_test11: class definition, non-static method definition and invocation
+a05_test12: nrfib.decaf
+a05_test13: rfib.decaf
+a05_test14: IntList.decaf
+a05_test15: Bank.decaf

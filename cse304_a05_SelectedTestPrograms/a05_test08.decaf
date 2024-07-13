@@ -1,0 +1,31 @@
+class A
+{
+    public static int i;
+    public static float f;
+    public static boolean b;
+}
+
+class a05_test08
+{
+    public static void main()
+    {
+        int i1;
+        int i2;
+        float f1;
+        float f2;
+        boolean b1;
+        boolean b2;
+        
+        i1 = 10;
+        f1 = 20.0;
+        b1 = false;
+        
+        A.i = i1;
+        A.f = f1;
+        A.b = b1;
+        
+        i2 = A.i;
+        f2 = A.f;
+        b2 = A.b;
+    }
+}
